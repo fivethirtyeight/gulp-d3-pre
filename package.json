@@ -1,5 +1,5 @@
 {
-  "name": "@fivethirtgulp-d3-pre",
+  "name": "@fivethirtyeight/gulp-d3-pre",
   "version": "1.1.1",
   "description": "Gulp task for pre-rendering d3 with d3-pre ",
   "main": "index.js",
