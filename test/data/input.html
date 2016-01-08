@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> | FiveThirtyEight</title>
+    <meta name="google-site-verification" content="u4S1gkGQ7IEq1C4S6i3KdYNnPhtuqfsaSIeP0Qqin68">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="article:published_time" content="Invalid date">
+    <meta property="article:modified_time" content="Invalid date">
+    <meta property="og:site_name" content="FiveThirtyEight">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="">
+    <meta name="twitter:image:src" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="article:publisher" content="https://www.facebook.com/FiveThirtyEight">
+    <meta property="fb:app_id" content="797620670264818">
+    <meta name="twitter:widgets:csp" content="on">
+    <meta name="twitter:maxage" content="300">
+    <meta name="twitter:site" content="FiveThirtyEight">
+    <meta name="twitter:site:id" content="2303751216">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:creator:id" content="">
+    <link rel="search" type="application/opensearchdescription+xml" href="http://fivethirtyeight.com/osd.xml" title="FiveThirtyEight">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://wordpress.com/opensearch.xml" title="WordPress.com">
+    <meta name="application-name" content="FiveThirtyEight">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="article:author" content="">
+    <meta name="news_keywords" content="undefined">
+    <link rel="author" href="">
+    <link rel="shortlink" href="">
+    <link rel="shortcut icon" type="image/x-icon" href="https://projects.fivethirtyeight.com/shared/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://projects.fivethirtyeight.com/shared/favicon.ico">
+    <link rel="apple-touch-icon" href="https://projects.fivethirtyeight.com/shared/apple-touch-icon.png">
+    <link rel="canonical" href="">
+    <script type="text/javascript">
+      var trackingConfig = {
+        postId: "",
+        section: "",
+        primaryTag: "",
+        pageName: "",
+        title: "",
+        author: "",
+        authorSlug: "",
+        fullUrl: "",
+        shortUrl: "",
+        twitterText: ""
+      }
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-60673836-2', 'auto');
+    </script>
+    <link rel="stylesheet" href="/css/app.css"/>
+  </head>
+  <body>
+    <div id="mboxDefault"></div>
+    <div id="ad"></div>
+    <header class="vertical-">
+      <div class="header-wrapper"><a href="http://fivethirtyeight.com" class="logo"><img width="163" height="20" alt="FiveThirtyEight" src="https://projects.fivethirtyeight.com/shared/logo-masthead-narrow.svg"></a>
+        <nav>Interactive</nav>
+        <div class="social-links"><a id="twitter-sharer" href="#" target="_blank" class="social share-twitter">
+            <div class="icon icon-twitter"></div></a><a id="facebook-sharer" href="#" target="_blank" class="social share-facebook">
+            <div class="icon icon-facebook"></div></a></div>
+      </div>
+    </header>
+    <div class="map-container">
+      <div class="map"></div>
+    </div>
+    <div class="candidate-selection">
+      <label for="bush" class="bush">Jeb Bush
+        <input type="checkbox" value="bush" name="bush" checked>
+      </label>
+      <label for="carson" class="carson">Ben Carson
+        <input type="checkbox" value="carson" name="carson">
+      </label>
+      <label for="christie" class="christie">Chris Christie
+        <input type="checkbox" value="christie" name="christie" checked>
+      </label>
+      <label for="cruz" class="cruz">Ted Cruz
+        <input type="checkbox" value="cruz" name="cruz" checked>
+      </label>
+      <label for="fiorina" class="fiorina">Carly Fiorina
+        <input type="checkbox" value="fiorina" name="fiorina">
+      </label>
+      <label for="gilmore" class="gilmore">Jim Gilmore
+        <input type="checkbox" value="gilmore" name="gilmore">
+      </label>
+      <label for="huckabee" class="huckabee">Mike Huckabee
+        <input type="checkbox" value="huckabee" name="huckabee">
+      </label>
+      <label for="kasich" class="kasich">John Kasich
+        <input type="checkbox" value="kasich" name="kasich">
+      </label>
+      <label for="paul" class="paul">Rand Paul
+        <input type="checkbox" value="paul" name="paul">
+      </label>
+      <label for="rubio" class="rubio">Marco Rubio
+        <input type="checkbox" value="rubio" name="rubio" checked>
+      </label>
+      <label for="santorum" class="santorum">Rick Santorum
+        <input type="checkbox" value="santorum" name="santorum">
+      </label>
+      <label for="trump" class="trump">Donald Trump
+        <input type="checkbox" value="trump" name="trump" checked>
+      </label>
+      <label for="webb" class="webb">Jim Webb
+        <input type="checkbox" value="webb" name="webb">
+      </label>
+    </div>
+    <div class="candidate-table">
+      <div id="table-location">United States</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="name">Candidate</th>
+            <th class="share">Share</th>
+            <th class="diff">vs. U.S.</th>
+          </tr>
+        </thead>
+        <tbody id="table-data"></tbody>
+      </table>
+    </div>
+    <div class="rule"></div>
+    <div class="footer">
+      <div class="notes"></div>
+      <div class="credits"></div>
+    </div>
+    <!--include ../includes/recirc.jade-->
+    <div class="container">
+      <div id="entry-comments" class="fte-expandable">
+        <h3 id="fte-expandable-title">Comments<span class="add-comment">Add Comment</span>    <span id="fte-expandable-icon"></span></h3>&#x9;
+        <div id="entry-comments-content" style="display: none" class="fte-expandable-content">
+          <div id="fb-comments" data-href="" data-numposts="5" data-colorscheme="light" data-width="100%" class="fb-comments fb_iframe_widget"></div>
+        </div>
+      </div>
+      <div id="colophon">
+        <div id="footer-social">
+          <div class="menu-main-container">
+            <ul class="menu">
+              <li><a href="http://fivethirtyeight.com/contact/">Contact</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://espn.com" target="_blank">ESPN</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com">FiveThirtyEight</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com/jobs/">Jobs</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com/masthead/">Masthead</a></li>
+            </ul>
+          </div>
+        </div>&#x9;
+        <div id="footer-navigation">
+          <div class="menu-main-container">
+            <ul class="menu">
+              <li><a href="http://fivethirtyeight.com/politics/">Politics</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com/economics/">Economics</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com/science/">Science</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com/life/">Life</a></li>&#x9;&#x9;&#x9;&#x9;
+              <li><a href="http://fivethirtyeight.com/sports/">Sports</a></li>
+            </ul>
+          </div>
+        </div>&#x9;
+        <p id="copyright"><a href="http://disneytermsofuse.com/">Terms of Use</a> and <a href="https://disneyprivacycenter.com/">Privacy Policy</a> and Safety Information/<a href="https://disneyprivacycenter.com/notice-to-california-residents/">Your California Privacy Rights</a>/<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children&apos;s Online Privacy Policy</a> are applicable to you. &copy;2015 ESPN Internet Ventures. All rights reserved. <a href="https://preferences-mgr.truste.com/?type=espn&amp;affiliateId=148">Interest-Based Ads</a></p>
+      </div>
+    </div>
+    <script src="/js/common.js" defer="defer"></script>
+    <script src="/js/bundle.js" defer="defer"></script>
+    <!--include ../includes/ads_and_tracking.html-->
+  </body>
+</html>
