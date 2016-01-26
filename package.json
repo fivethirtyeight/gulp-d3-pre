@@ -15,7 +15,7 @@
     "semistandard": "^7.0.4"
   },
   "dependencies": {
-    "@fivethirtyeight/d3-pre-renderer": "^2.1.0",
+    "@fivethirtyeight/d3-pre-renderer": "^2.1.2",
     "through2": "^2.0.0"
   },
   "semistandard": {
