@@ -1,7 +1,7 @@
 'use strict';
 
 var through = require('through2');
-var render = require('d3-pre-renderer');
+var render = require('@fivethirtyeight/gulp-d3-pre');
 
 module.exports = function (options) {
   options = options || {};
