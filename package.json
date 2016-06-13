@@ -1,5 +1,5 @@
 {
-  "name": "gulp-d3-pre",
+  "name": "@fivethirtyeight/gulp-d3-pre",
   "version": "1.1.7",
   "description": "Gulp task for pre-rendering d3 with d3-pre ",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "semistandard": "^7.0.4"
   },
   "dependencies": {
-    "d3-pre-renderer": "^2.2.0",
+    "@fivethirtyeight/d3-pre-renderer": "^2.3.0",
     "through2": "^2.0.0"
   },
   "semistandard": {
