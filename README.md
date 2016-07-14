@@ -4,7 +4,7 @@ Gulp task for pre-rendering d3 with d3-pre.
 See [d3-pre](https://github.com/fivethirtyeight/d3-pre) for more detailed documentation.
 
 
-## usage
+## Usage
 
 Install the gulp plugin:
 ```
