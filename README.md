@@ -8,7 +8,7 @@ See [d3-pre](https://github.com/fivethirtyeight/d3-pre) for more detailed docume
 
 Install the gulp plugin:
 ```
-$ npm install @fivethirtyeight/gulp-d3-pre
+$ npm install gulp-d3-pre
 ```
 
 Create a gulp task:
